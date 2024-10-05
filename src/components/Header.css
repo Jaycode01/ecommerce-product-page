@@ -1,5 +1,22 @@
 .header{
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
+    padding: 35px 5px;
+    border-bottom: 1px solid #808080;
+}
+
+.logo{
+    width: auto;
+    height: auto;
+}
+
+.profile > img{
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.profile > img:hover{
+    border: 3px solid #ff4500;
+    border-radius: 120px;
 }

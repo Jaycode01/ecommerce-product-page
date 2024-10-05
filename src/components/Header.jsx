@@ -9,11 +9,15 @@ const Header = () => {
   return (
     <div>
       <header className="header">
+        <div>
         <img src={Logo} alt="sneakers logo" className="logo" />
+        </div>
         <Navbar />
-        <div className="profile-section">
+        <div className="cart">
           <img src={CartIcon} alt="" className='cart' />
-          <img src={ProfileImage} alt="" className='profile' />
+        </div>
+        <div className="profile">
+        <img src={ProfileImage} alt="" className='profile' />
         </div>
       </header>
     </div>

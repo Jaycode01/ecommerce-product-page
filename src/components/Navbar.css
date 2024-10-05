@@ -2,6 +2,17 @@
     font-size: 20px;
 }
 
+.navbar{
+    justify-content: flex-start;
+    margin: 0px 400px 0px 0px;
+}
+
+.navbar > ul{
+    display: inline-flex;
+    gap: 80px;
+    margin-left: 120px;
+}
+
 li{
     list-style-type: none;
 }
@@ -9,5 +20,11 @@ li{
 li > a{
     text-decoration: none;
     color: #000;
+    text-align: center;
+    padding-bottom: 50px;
+    text-transform: capitalize;
 }
 
+li > a:hover{
+    border-bottom: 5px solid orangered
+}
